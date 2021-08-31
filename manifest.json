@@ -1,0 +1,19 @@
+{
+  "name": "Form novalidate param",
+  "description": "HTML5 plugin adding the novalidate param for all forms",
+  "version": "1.0",
+  "homepage_url": "https://github.com/JadeRemi/form-novalidate",
+  "author": "Jade Remi",
+  "short_name": "Form novalidate param",
+  "permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["app.js"]
+    }
+  ],
+  "manifest_version": 1
+}
+
